@@ -24,10 +24,6 @@ function Box({ className = '', style, ...otherProps }) {
 }
 
 
-const smallBox = <div className="box box--small" style={{ backgroundColor: 'lightblue', fontFamily: 'italic' }}>small lightblue box</div>
-const mediumBox = <div className="box box--medium" style={{ backgroundColor: 'lightpink', fontFamily: 'italic' }}>medium pink box</div>
-const largeBox = <div className="box box--large" style={{ backgroundColor: 'orange', fontFamily: 'italic' }}>large orange box</div>
-
 function App() {
   return (
     <div>
